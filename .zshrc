@@ -11,4 +11,5 @@ autoload -Uz compinit
 compinit
 
 eval "$(starship init zsh)"
+fastfetch
 # End of lines added by compinstall
