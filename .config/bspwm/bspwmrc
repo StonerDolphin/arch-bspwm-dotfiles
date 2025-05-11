@@ -14,7 +14,7 @@ bspc config gapless_monocle      true
 # [AUTO START]
 sxhkd &
 setxkbmap latam &
-picom --config $HOME/.config/picom/picom.conf &
+picom --config $HOME/.config/picom/picom.conf.example &
 nitrogen --restore &
 dunst &
 polybar &
