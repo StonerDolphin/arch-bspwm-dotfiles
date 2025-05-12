@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-bspc monitor -d I II III IV V
+bspc monitor -d 1 2 3 4 5
 
 bspc config border_width         0
 bspc config window_gap          10
@@ -20,4 +20,4 @@ setxkbmap latam &
 picom --config $HOME/.config/picom/picom.conf.example &
 nitrogen --restore &
 dunst &
-polybar &
+polybar --config=$HOME/.config/polybar/config.ini &
