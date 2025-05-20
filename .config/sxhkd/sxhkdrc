@@ -30,6 +30,10 @@ XF86AudioMute
 XF86MonBrightness{Up,Down}
 	brightnessctl set 10{+,-}
 
+# Screenshot
+super + {_,shift +}s
+	~/.config/sxhkd/scripts/screenshots
+
 # bspwm hotkeys
 #
 

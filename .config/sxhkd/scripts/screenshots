@@ -1,0 +1,8 @@
+#!/bin/bash
+TMPDIR=~/Pictures/screenshots
+mkdir -p "$TMPDIR"
+
+FILE=$(mktemp "$TMPDIR/screenshots-XXX.png")
+scrot "$FILE" --select -o -e 'xclip -selection clipboard -t image/png -i $f' 
+
+
