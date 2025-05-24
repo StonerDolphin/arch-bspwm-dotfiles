@@ -1,7 +1,11 @@
 [font]
-size = 7.5
+size = 8
 normal = {family = "FiraCode Nerd Font Mono", style = "Regular"}
 
 [window]
 padding = {x = 3, y = 3}
+
+[colors.primary]
+background = "#232a2e"
+foreground = "#d3c6aa"
 
