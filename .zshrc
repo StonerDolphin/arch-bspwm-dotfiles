@@ -10,6 +10,8 @@ zstyle :compinstall filename '/home/milo/.zshrc'
 autoload -Uz compinit
 compinit
 
+alias ls='lsd -la --group-dirs first --icon auto'
+
 eval "$(starship init zsh)"
 fastfetch
 # End of lines added by compinstall
